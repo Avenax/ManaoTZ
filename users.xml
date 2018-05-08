@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<users>
+    <user id="Avenax2">
+        <login>Avenax2</login>
+        <email>proakrewwer@gmail.com</email>
+        <name>Саша</name>
+        <password>0851fd30c138ec3d6afae00ff80733e7</password>
+    </user>
+    <user id="Avenax">
+        <login>Avenax</login>
+        <email>proakwer@gmail.com</email>
+        <name>Саша</name>
+        <password>0851fd30c138ec3d6afae00ff80733e7</password>
+    </user>
+    <user id="Avenax23">
+        <login>Avenax23</login>
+        <email>ewqjk@gmail.com</email>
+        <name>qweasd</name>
+        <password>05597803f27bf3e161d84fd2329272f5</password>
+    </user>
+</users>
