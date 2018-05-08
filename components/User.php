@@ -47,7 +47,7 @@ class User {
             $dom->load(self::$xml);
 
             $desserts = $dom->getElementsByTagName('users')->item(0);
-            $user = $dom->createElement("user");
+            $user = $dom->createElement(self::$nameAttribute);
             $user->setAttribute("id", $data->login);
 
             $us = $desserts->appendChild($user);
