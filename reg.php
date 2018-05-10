@@ -3,11 +3,11 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/components/User.php';
 if (filter_has_var(INPUT_POST, 'data')) {
 
     $result = array(
-        'login' => $_POST["login"],
+        'login' = filter_input(INPUT_POST, 'login', FILTER_SANITIZE_SPECIAL_CHARS),
         'password' => $_POST["password"],
         'confirm_password' => $_POST["confirm_password"],
         'email' => $_POST["email"],
-        'name' => $_POST["name"]
+        'name' = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_SPECIAL_CHARS)
     );
 
     $answer = User::register(json_encode($result));
