@@ -78,3 +78,4 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/components/User.php';
 <?php endif; ?>
 </body>
 </html>
+
